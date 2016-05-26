@@ -24,7 +24,7 @@ hr {
 }
 a {
     /*color: #000;*/
-    color: #45B099;
+    color: #0168E8;
     text-decoration: none;
     font-weight: 400;
 }
@@ -292,12 +292,13 @@ a:hover {
     padding: 0;
 }
 .productlist-price-container {
-    position: absolute;
-    bottom: 0;
+/*    position: absolute;*/
+/*    bottom: 0;*/
     max-width: 90%;
     text-align: left;
-    z-index: 89;
-    margin: 22px;
+/*    z-index: 89;*/
+/*    margin: 22px;*/
+    margin-top: 30px;    
 }
 .productlist-love-container {
     position: absolute;
@@ -313,9 +314,11 @@ a:hover {
 .product-price {
     background-color: #fff;
     display: inline-block;
-    padding: .7em 1.1em;
+    padding: 7px 0px 14px;
     font-family: "Helvetica Neue", "Arial", "sans-serif";
     font-size: 11px;
+    text-align: center;
+    width: 100%;
     text-transform: none;
     letter-spacing: 1px;
     font-weight: bold;
@@ -804,6 +807,7 @@ a.nav-icon-outline:hover {
     min-width: 100%;
     z-index: 1030;
     background-color: #FFF;
+    padding-top: 60px;
     top: 0;
     bottom: 100%;
     left: 0;
@@ -1272,6 +1276,8 @@ blockquote .small {
     margin-top: 0;
     display: none;
     list-style: none;
+        padding-left: 10px;
+    padding-bottom: 20px;
 }
 .open {
     display: block !important;
@@ -1285,4 +1291,22 @@ blockquote .small {
 .nav>li>a:focus, .nav>li>a:hover{
     color: #326B5F;
     background: none;
+}
+.event-name {
+    
+}
+.productlist a:hover span{
+    text-decoration: underline;    
+}
+
+.pin-caption {
+    text-align: center;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;    
 }
