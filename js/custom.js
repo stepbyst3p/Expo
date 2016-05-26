@@ -37,3 +37,17 @@ $(document).ready(function () {
         return false
     });
 });
+
+//SideMenu
+$('.side-menu ul li a').click(function () {
+    var submenu = $(this).siblings('ul');
+    if (submenu.length > 0) {
+        if (submenu.hasClass('open')) {
+
+        } else {
+            submenu.addClass('open').slideDown(1);
+            return false;
+        }
+    }
+
+});
