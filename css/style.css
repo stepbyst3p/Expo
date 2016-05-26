@@ -286,7 +286,7 @@ a:hover {
 .productlist .col-xs-3 {
     position: relative;
     min-height: 1px;
-    padding: 2px;
+/*    padding: 2px;*/
 }
 .productlist .col-sm-4.special {
     padding: 0;
@@ -314,7 +314,7 @@ a:hover {
 .product-price {
     background-color: #fff;
     display: inline-block;
-    padding: 7px 0px 14px;
+    padding: 0px 0px 30px;
     font-family: "Helvetica Neue", "Arial", "sans-serif";
     font-size: 11px;
     text-align: center;
@@ -375,6 +375,7 @@ a:hover .product-price {
     /*    margin-top: 60px;*/
     /*    padding-right: 15px;*/
     margin-bottom: 30px;
+    margin-top: 0px;
 }
 .product .product-price {
     font-family: 'Source Sans Pro', sans-serif;
@@ -1276,8 +1277,8 @@ blockquote .small {
     margin-top: 0;
     display: none;
     list-style: none;
-        padding-left: 10px;
-    padding-bottom: 20px;
+            padding: 10px 20px 30px;
+    text-transform: uppercase;
 }
 .open {
     display: block !important;
