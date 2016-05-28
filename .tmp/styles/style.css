@@ -62,10 +62,6 @@ a:hover {
 .big-text {
     font-size: 400px;
     font-weight: 700;
-    -ms-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
 .big-text:hover {
@@ -91,10 +87,6 @@ a:hover {
     color: #fff;
     border: 2px solid #000;
     border-radius: 0;
-    -ms-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
 .btn:hover,
@@ -220,8 +212,6 @@ a:hover {
     display: inline-block;
     padding: 0 5px;
     background: transparent;
-    -webkit-transition: all .3s ease-out;
-    -moz-transition: all .3s ease-out;
     transition: all .3s ease-out;
 }
 .effect a:hover,
@@ -259,8 +249,6 @@ a:hover {
 /* ------------------------------ product list -------------------------- */
 
 .productlist a .product-price {
-    -webkit-transition: all .3s ease-out;
-    -moz-transition: all .3s ease-out;
     transition: all .3s ease-out;
     color: #000;
 }
@@ -359,7 +347,6 @@ a:hover .product-price {
     margin-top: 30px;
 }
 .zoomed {
-    -webkit-transform: scale(1.03);
     transform: scale(1.03);
     transition: .3s;
 }
@@ -523,7 +510,6 @@ a:hover .product-price {
     margin: 24px 0px;
     /* padding-left: 32px; */
     position: relative;
-    -webkit-transition: color 0.25s linear;
     transition: color 0.25s linear;
     font-size: 14px;
     line-height: inherit;
@@ -629,7 +615,6 @@ input[type="checkbox"]:checked + span:before {
 }
 .panel {
     border: 0;
-    -webkit-box-shadow: none;
     box-shadow: none;
     /* border-top: 1px solid #ccc; */
     /* margin-bottom: 10px; */
@@ -730,10 +715,6 @@ a.nav-brand {
     line-height: 46px;
     cursor: pointer;
     color: #000;
-    -ms-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
 a.nav-brand span {
@@ -776,10 +757,6 @@ a.nav-icon-outline {
     line-height: 45px;
     text-align: center;
     border-radius: 50%;
-    -ms-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     margin-left: 15px;
 }
@@ -814,17 +791,9 @@ a.nav-icon-outline:hover {
     top: 0;
     bottom: 100%;
     left: 0;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 .menu-open {
-    -webkit-transform: translate3d(-240px, 0, 0) scale3d(1, 1, 1);
-    -moz-transform: translate3d(-240px, 0, 0) scale3d(1, 1, 1);
-    -ms-transform: translateX(-240px);
-    -o-transform: translate(-240px, 0);
     transform: translate3d(-240px, 0, 0) scale3d(1, 1, 1);
     overflow: hidden;
 }
@@ -873,10 +842,6 @@ a.close-menu:hover {
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
-    -ms-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
 .social-links li a i {}
@@ -966,10 +931,6 @@ blockquote .small {
     color: #000;
     border: 2px solid #DDDDDD;
     border-radius: 0;
-    -ms-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
 #comments_pagination span {
@@ -1077,10 +1038,6 @@ blockquote .small {
         font-weight: 400;
         overflow-x: hidden;
         overflow-y: auto;
-        -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
-        -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
-        -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
-        -o-transform: translate(0);
         transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
     }
     .menu-wrapper ul.nav-list {
@@ -1118,10 +1075,6 @@ blockquote .small {
         right: 20px;
         font-size: 16px;
         color: #FFF;
-        -ms-transition: all 0.3s ease-out;
-        -o-transition: all 0.3s ease-out;
-        -webkit-transition: all 0.3s ease-out;
-        -moz-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out;
     }
     .product {
